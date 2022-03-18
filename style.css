@@ -1,0 +1,38 @@
+body{
+    background-color: navy;
+    font-family: 'SF Cartoonist Hand SC', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid red;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 3px 3px 40px red;
+    }
+
+    to{
+        box-shadow: 3px 3px 40px navy;
+    }
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
